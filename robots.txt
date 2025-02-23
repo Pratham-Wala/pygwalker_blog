@@ -1,1 +1,1 @@
-Sitemap: https://nipunbatra.github.io/quarto-template/sitemap.xml
+Sitemap: https://Pratham-Wala.github.io/pygwalker_blog/sitemap.xml
