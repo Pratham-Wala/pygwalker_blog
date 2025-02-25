@@ -1,9 +1,3 @@
----
-title: "Welcome"
-description: "Welcome Post"
-author: "Nipun Batra"
-date: "2/14/2025"
----
 
 
 # Welcome
