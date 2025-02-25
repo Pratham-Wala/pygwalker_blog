@@ -2,4 +2,4 @@
 title: "PyGWalker" 
 ---
 ```{jupyter}
-input: posts/pygwalkerwork.ipynb
+input: pygwalkerwork.ipynb
