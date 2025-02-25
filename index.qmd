@@ -1,5 +1,5 @@
 ---
 title: "PyGWalker" 
 ---
-```{nbconvert}
+```{jupyter}
 input: posts/pygwalkerwork.ipynb
