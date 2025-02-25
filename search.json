@@ -11,14 +11,14 @@
     "href": "pygwalkerwork.html#drag-and-drop-to-x-and-y-axis",
     "title": "PyGWalker",
     "section": "1) Drag and drop to X and Y axis",
-    "text": "1) Drag and drop to X and Y axis\nYou can simply drag your dataset columns onto the X and Y axes to create charts.\nWant to see row count per state? Drag State_Name to X and Row count to Y\n\n\n\n1.png\n\n\nNeed a an area chart to compare county wise mean income? Drage county to X and Mean to Y\n\n\n\n2.png"
+    "text": "1) Drag and drop to X and Y axis\nYou can simply drag your dataset columns onto the X and Y axes to create charts.\nWant to see row count per state? Drag State_Name to X and Row count to Y\n\n\n\n1.png\n\n\nNeed an area chart to compare county wise mean income? Drage State_name to X and Mean to Y\n\n\n\n2.png"
   },
   {
     "objectID": "pygwalkerwork.html#aggregations",
     "href": "pygwalkerwork.html#aggregations",
     "title": "PyGWalker",
     "section": "2) Aggregations",
-    "text": "2) Aggregations\nPyGWalker automatically aggregates data to give you meaningful insights.\nWant to see total income per sate? — PyGWalker will sum it for you. But hey, you realise that different states have different no of cities considered, so the states with more number of cities considered will have a higher value. so it would be better to average these out.\nHow do I do this?\nJust switch the aggregation to AVG instead of SUM.\nto use aggregation, aggregation mode must be toggled on.\nFollowing aggregations can be used: - Sum → Total of all values - Count → Number of occurrences - Median → Median of all values - Min/Max → Smallest and largest values - Standard Deviation → standard deviation of all values - Variation → variation of all values\n\n\n\n3.png"
+    "text": "2) Aggregations\nPyGWalker automatically aggregates data to give you meaningful insights.\nWant to see total income per sate? — PyGWalker will sum it for you. But hey, you realise that different states have different no of cities considered, so the states with more number of cities considered will have a higher value. so it would be better to average these out.\nHow do I do this?\nJust switch the aggregation to MEAN instead of SUM.\nto use aggregation, aggregation mode must be toggled on.\nFollowing aggregations can be used: Sum → Total of all values Count → Number of occurrences Median → Median of all values Min/Max → Smallest and largest values Standard Deviation → standard deviation of all values Variation → variation of all values\n\n\n\n3.png"
   },
   {
     "objectID": "pygwalkerwork.html#filters",
@@ -32,7 +32,7 @@
     "href": "pygwalkerwork.html#color",
     "title": "PyGWalker",
     "section": "4) Color",
-    "text": "4) Color\nMake your charts visually appealing and informative by adding color categories.\nAssign different colors to regions, product categories, or user segments.\nExample: In a bar chart of State_Name vs Mean income, drag the mean block to color filter for better comparison.\n\n\n\n5.png"
+    "text": "4) Color\nMake your charts visually appealing and informative by adding color categories.\nAssign different colors to regions, product categories, or user segments.\nExample: In a bar chart of State_Name vs Mean income, drag the mean block to color filter for better comparison.\n\n\n\n14.png"
   },
   {
     "objectID": "pygwalkerwork.html#opacity-size-shape-details",
@@ -46,7 +46,7 @@
     "href": "pygwalkerwork.html#sorting",
     "title": "PyGWalker",
     "section": "6) Sorting",
-    "text": "6) Sorting\nQuickly sort data in ascending or descending order:\nWant to see State with highest avg income? just click on sorth in descending order.\n\n\n\n6.png"
+    "text": "6) Sorting\nQuickly sort data in ascending or descending order:\nWant to see State with highest avg income? just click on sort in descending order.\n\n\n\n6.png"
   },
   {
     "objectID": "pygwalkerwork.html#transpose",
