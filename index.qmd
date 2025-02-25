@@ -1,5 +1,5 @@
 ---
-title: "PyGWalker" 
+title: "PyGWalker"
+listing:
+    contents: pygwalkerwork.ipynb
 ---
-```{jupyter}
-input: pygwalkerwork.ipynb
