@@ -1,10 +1,94 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Quarto Templete",
+    "objectID": "pygwalkerwork.html",
+    "href": "pygwalkerwork.html",
+    "title": "PyGWalker",
     "section": "",
-    "text": "Quarto template Text!\n\nThis is PyGWalker blog"
+    "text": "PyGWalker is a python library developed by Kanaries Open Source Community.\nPyGWalker can simplify your Jupyter Notebook data analysis and data visualization workflow, by turning your pandas dataframe into an interactive user interface for visual exploration.\nPyGWalker (pronounced like “Pig Walker”, just for fun) is named as an abbreviation of “Python binding of Graphic Walker”. It integrates Jupyter Notebook with Graphic Walker, an open-source alternative to Tableau. It allows data scientists to visualize / clean / annotates the data with simple drag-and-drop operations and even natural language queries."
+  },
+  {
+    "objectID": "pygwalkerwork.html#drag-and-drop-to-x-and-y-axis",
+    "href": "pygwalkerwork.html#drag-and-drop-to-x-and-y-axis",
+    "title": "PyGWalker",
+    "section": "1) Drag and drop to X and Y axis",
+    "text": "1) Drag and drop to X and Y axis\nYou can simply drag your dataset columns onto the X and Y axes to create charts.\nWant to see row count per state? Drag State_Name to X and Row count to Y\n\n\n\n1.png\n\n\nNeed a an area chart to compare county wise mean income? Drage county to X and Mean to Y\n\n\n\n2.png"
+  },
+  {
+    "objectID": "pygwalkerwork.html#aggregations",
+    "href": "pygwalkerwork.html#aggregations",
+    "title": "PyGWalker",
+    "section": "2) Aggregations",
+    "text": "2) Aggregations\nPyGWalker automatically aggregates data to give you meaningful insights.\nWant to see total income per sate? — PyGWalker will sum it for you. But hey, you realise that different states have different no of cities considered, so the states with more number of cities considered will have a higher value. so it would be better to average these out.\nHow do I do this?\nJust switch the aggregation to AVG instead of SUM.\nto use aggregation, aggregation mode must be toggled on.\nFollowing aggregations can be used: - Sum → Total of all values - Count → Number of occurrences - Median → Median of all values - Min/Max → Smallest and largest values - Standard Deviation → standard deviation of all values - Variation → variation of all values\n\n\n\n3.png"
+  },
+  {
+    "objectID": "pygwalkerwork.html#filters",
+    "href": "pygwalkerwork.html#filters",
+    "title": "PyGWalker",
+    "section": "3) Filters",
+    "text": "3) Filters\nData exploration is incomplete without filters! PyGWalker allows you to filter data interactively:\nWant to see the data for only some specific states? Just drag and drop state_Name column in filter box.\nNeed to analyze only states with cities with median income only in a specific range? Apply range filter on median.\n\n\n\n4.png"
+  },
+  {
+    "objectID": "pygwalkerwork.html#color",
+    "href": "pygwalkerwork.html#color",
+    "title": "PyGWalker",
+    "section": "4) Color",
+    "text": "4) Color\nMake your charts visually appealing and informative by adding color categories.\nAssign different colors to regions, product categories, or user segments.\nExample: In a bar chart of State_Name vs Mean income, drag the mean block to color filter for better comparison.\n\n\n\n5.png"
+  },
+  {
+    "objectID": "pygwalkerwork.html#opacity-size-shape-details",
+    "href": "pygwalkerwork.html#opacity-size-shape-details",
+    "title": "PyGWalker",
+    "section": "5) Opacity, Size, Shape, Details",
+    "text": "5) Opacity, Size, Shape, Details\nTake your scatter plots and bubble charts to the next level: - Opacity → Adjust transparency to handle dense data points. - Size → Map a column (e.g., income) to bubble size in a scatter plot. - Shape → Differentiate categories using shapes instead of colors. - Details → Add extra information on hover (e.g., show Customer Name when hovering over a data point)."
+  },
+  {
+    "objectID": "pygwalkerwork.html#sorting",
+    "href": "pygwalkerwork.html#sorting",
+    "title": "PyGWalker",
+    "section": "6) Sorting",
+    "text": "6) Sorting\nQuickly sort data in ascending or descending order:\nWant to see State with highest avg income? just click on sorth in descending order.\n\n\n\n6.png"
+  },
+  {
+    "objectID": "pygwalkerwork.html#transpose",
+    "href": "pygwalkerwork.html#transpose",
+    "title": "PyGWalker",
+    "section": "7) Transpose",
+    "text": "7) Transpose\nUse this feature if you want to swap X and Y axis.\n\n\n\n7.png"
+  },
+  {
+    "objectID": "pygwalkerwork.html#layout-customisation",
+    "href": "pygwalkerwork.html#layout-customisation",
+    "title": "PyGWalker",
+    "section": "8) Layout Customisation",
+    "text": "8) Layout Customisation\nOrganize your visualizations exactly how you want. PyGWalker provides: - Grid layout → Arrange multiple charts side by side. - Resizable panels → Adjust chart sizes for better comparisons. - Multiple tabs → Separate different analyses into different tabs.\n\n\n\n8.png"
+  },
+  {
+    "objectID": "pygwalkerwork.html#painter-mode",
+    "href": "pygwalkerwork.html#painter-mode",
+    "title": "PyGWalker",
+    "section": "9) Painter Mode",
+    "text": "9) Painter Mode\nWant to highlight trends, annotate data points, or mark key areas?\nPyGWalker lets you draw directly on charts to emphasize insights. This is great for presentations and storytelling.\n\n\n\n9.png"
+  },
+  {
+    "objectID": "pygwalkerwork.html#different-chart-types",
+    "href": "pygwalkerwork.html#different-chart-types",
+    "title": "PyGWalker",
+    "section": "10) Different Chart Types",
+    "text": "10) Different Chart Types\nPyGWalker supports a variety of built-in visualizations, including: - Bar Charts → Compare categorical data - Line Charts → Show trends over time - Scatter Plots → Analyze relationships between two variables - Geospatial Maps → Visualize location-based data - Pie Charts → Display proportions\nWe can change between chart types without having to write a single line of code.\n\n\n\n10.png"
+  },
+  {
+    "objectID": "pygwalkerwork.html#data-tab",
+    "href": "pygwalkerwork.html#data-tab",
+    "title": "PyGWalker",
+    "section": "11) Data tab",
+    "text": "11) Data tab\nNeed to see your raw data while analyzing?\nThe Data Tab gives you a spreadsheet-like view right inside PyGWalker.\nQuickly scan through row-level data. Apply filters, sorting, and calculations directly\n\n\n\n11.png"
+  },
+  {
+    "objectID": "pygwalkerwork.html#export-options",
+    "href": "pygwalkerwork.html#export-options",
+    "title": "PyGWalker",
+    "section": "12) Export Options",
+    "text": "12) Export Options\nPyGWalker lets you export your insights for presentations and sharing: - Save as an Image → PNG/JPG format - Export as HTML → Share an interactive report - Copy to Clipboard → Paste directly into documents or emails\n\n\n\n13.png"
   },
   {
     "objectID": "posts/welcome.html",
@@ -12,5 +96,12 @@
     "title": "Welcome",
     "section": "",
     "text": "Welcome\nHello world, this is my first blog post.\nI can write in markdown\nprint(\"Hello World\")\nI can also write math equations:\n\\[\ny = x^2\n\\]\nI can create lists easily:\n\nOne\nTwo\n\nI can also create numbered lists:\n\nOne\nTwo\n\nOr, create a table:\n\n\n\nName\nAge\n\n\n\n\nAlice\n20\n\n\nBob\n21"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Quarto Templete",
+    "section": "",
+    "text": "Quarto template Text!"
   }
 ]
